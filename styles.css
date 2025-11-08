@@ -4,6 +4,7 @@ body{
   background-size: cover;     
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 main{
   display:flex;
@@ -71,7 +72,7 @@ a:hover::before {
 .section{
   font-size: 24px;
   font-family: Roboto; 
-  /*overflow-y:scroll;*/
+  overflow-y:scroll;
   background-color:#33322e;
   background-color: rgba(0, 0, 0, 0.7);
   flex: 1 1 15%;
@@ -100,3 +101,8 @@ a:hover::before {
   height:39%;
   max-width: 100%;
 }
+/* don't show scroll bar (works in firefox) */
+.section {
+  scrollbar-width: none;
+}
+

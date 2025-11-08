@@ -25,6 +25,10 @@
             <li><a href="https://chatgpt.com/">chatgpt</a></li>
           <li><a href="https://docs.google.com/spreadsheets/d/1CkpL-vd0PiWny3OiwqUVO9UlgV5vu0vkeMQxog4EIB4/edit?gid=0#gid=0">2025</a></li>
             <li><a href="https://music.youtube.com/">yt-music</a></li>
+            <br>
+            <li><a href="https://www.protondb.com/">protondb</a></li>
+            <li><a href="https://wiki.archlinux.org/title/Main_page">archwiki</a></li>
+
           </ol>
         </div>
 
@@ -35,7 +39,10 @@
             <li><a href="https://web.whatsapp.com/">wsp</a></li>
             <li><a href="https://myanimelist.net/">MAL</a></li>
             <li><a href="https://www.goodreads.com">goodreads</a></li>
-            <li><a href="https://letterboxd.com/">movies</a></li>
+            <li><a href="https://letterboxd.com/">letterbox</a></li>
+            <br>
+            <li><a href="https://rateyourmusic.com/">rym</a></li>
+            <li><a href="https://backloggd.com/">backloggd</a></li>
           </ol>
         </div>
 
@@ -47,10 +54,28 @@
             <li><a href="https://1337x.to/home/">1337x</a></li>
             <li><a href="https://musescore.com/dashboard">sheet-music</a></li>
             <li><a href="https://www.youtube.com/feed/playlists">yt-playlist</a></li>
+            <br>
+            <li><a href="https://fmhy.net/">fmhy</a></li>
           </ol>                                       
         </div>
 
       </main> 
+   <script>
+    // Scroll to top on page load and refresh
+    window.addEventListener('load', function() {
+        const sections = document.querySelectorAll('.section');
+        sections.forEach(section => {
+            section.scrollTop = 0;
+        });
+    });
+    // Also scroll to top when page is shown (including when coming from back/forward cache)
+    window.addEventListener('pageshow', function() {
+        const sections = document.querySelectorAll('.section');
+        sections.forEach(section => {
+            section.scrollTop = 0;
+        });
+    });
+    </script>
     <script src="js/clock.js"></script>
     <script src="js/date.js"></script>  
     <script src="js/randoImg.js"></script>
